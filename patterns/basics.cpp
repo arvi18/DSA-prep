@@ -24,6 +24,27 @@ square
     }
 }
 
+void square_lettered(int n)
+/*
+square_lettered
+A A A A
+B B B B
+C C C C
+D D D D
+
+*/
+{
+    cout << "square_lettered" << endl;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cout << char(65 + i) << " ";
+        }
+        cout << endl;
+    }
+}
+
 void square_numbered(int n)
 /*
 square_numbered
@@ -93,6 +114,29 @@ square_increasing_numbered_same_row
     }
 }
 
+void square_increasing_numbered_decreasing_same_row(int n)
+/*
+1
+2 1
+3 2 1
+4 3 2 1
+
+*/
+{
+    int i = 1;
+    while (i <= n)
+    {
+        int j = 0;
+        while (j < i)
+        {
+            cout << i - j << " ";
+            j++;
+        }
+        i++;
+        cout << endl;
+    }
+}
+
 void half_pyramid(int n)
 /*
 half_pyramid
@@ -116,6 +160,60 @@ half_pyramid
     }
 }
 
+void half_pyramid_right_reversed(int n)
+/*
+half_pyramid
+       *
+     * *
+   * * *
+ * * * *
+
+*/
+
+{
+    cout << "half_pyramid_right_reversed" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (j < n - i - 1)
+                cout << "  ";
+            else
+                cout << "* ";
+        }
+        cout << endl;
+    }
+}
+
+void sqaure_perimeter(int n)
+{
+    /*
+
+    * * * *
+    *     *
+    *     *
+    * * * *
+
+    */
+    int i = 0;
+    while (i < n)
+    {
+        int j = 0;
+        while (j < n)
+        {
+            if (j == 0 || i == 0 || i == n - 1 || j == n - 1)
+
+                cout << "* ";
+            else
+                cout << "  ";
+            j++;
+        }
+        i++;
+        cout << endl;
+    }
+}
+
 int main()
 {
 
@@ -126,9 +224,12 @@ int main()
 
     // square(n);
     // square_numbered(n);
+    // square_lettered(n);
     // square_increasing_numbered(n);
     // square_increasing_numbered_same_row(n);
-    half_pyramid(n);
+    // square_increasing_numbered_decreasing_same_row(n);
+    // half_pyramid_right_reversed(n);
+    sqaure_perimeter(n);
 
     return 0;
 }
