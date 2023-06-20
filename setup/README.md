@@ -15,3 +15,5 @@ sudo mv arewe /usr/local/bin
 ```
 arewe myfile.cpp
 ```
+
+example: arewe ~/kaam/DSA-prep/patterns/basics.cpp
