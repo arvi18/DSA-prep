@@ -214,6 +214,45 @@ void sqaure_perimeter(int n)
     }
 }
 
+void master(int n)
+{
+    /*
+    5*10
+
+    1 2 3 4 5 5 4 3 2 1
+    1 2 3 4 * * 4 3 2 1
+    1 2 3 * * * * 3 2 1
+    1 2 * * * * * * 2 1
+    1 * * * * * * * * 1
+    */
+
+    int i = 1;
+    while (i <= n)
+    {
+        int j = 1;
+        // int star_counter = 0;
+        // first half
+        while (j <= 2 * n)
+        {
+            if (j <= n - i + 1)
+            {
+                cout << j << " ";
+            }
+            else if (j > i && j < n + i)
+            {
+                cout << "* ";
+            }
+            else
+            {
+                cout << 2 * n - j + 1 << " ";
+            }
+            j++;
+        }
+        i++;
+        cout << endl;
+    }
+}
+
 int main()
 {
 
@@ -229,7 +268,8 @@ int main()
     // square_increasing_numbered_same_row(n);
     // square_increasing_numbered_decreasing_same_row(n);
     // half_pyramid_right_reversed(n);
-    sqaure_perimeter(n);
+    // sqaure_perimeter(n);
+    master(n);
 
     return 0;
 }
