@@ -6,6 +6,7 @@ This repository contains my solutions to various Data Structures and Algorithms 
 
 - [About](#about)
 - [Getting Started](#getting-started)
+- [NeetCode 150](#neetcode-150)
 - [Problem Categories](#problem-categories)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,6 +27,14 @@ git clone https://github.com/arvi18/dsa-prep.git
 
 
 Once you have cloned the repository, you can explore the different problem categories and programming languages. Each problem solution is placed within a separate directory, along with a detailed explanation of the problem and the approach used to solve it.
+
+## NeetCode 150
+
+Solutions for the [NeetCode 150](https://neetcode.io/practice) list, written in Java and organized by topic.
+
+- **Directory:** [`neetcode/neetcode150/`](neetcode/neetcode150/)
+- **Progress tracker:** [`neetcode/neetcode150/README.md`](neetcode/neetcode150/README.md)
+- **New problem workflow:** copy [`_template.java`](neetcode/neetcode150/_template.java) → rename to `{number}-{slug}.java` → paste approaches from NeetCode
 
 ## Problem Categories
 
