@@ -2,14 +2,14 @@
 
 Java solutions organized by NeetCode topic. Copy `_template.java` for each new problem.
 
-**Progress:** 2 / 150
+**Progress:** 4 / 150
 
 ## Arrays & Hashing
 
 - [x] [217 - Contains Duplicate](arrays-and-hashing/217-contains-duplicate.java)
 - [x] [242 - Valid Anagram](arrays-and-hashing/242-valid-anagram.java)
-- [ ] [1 - Two Sum](arrays-and-hashing/)
-- [ ] [49 - Group Anagrams](arrays-and-hashing/)
+- [x] [1 - Two Sum](arrays-and-hashing/1-two-sum.java)
+- [x] [49 - Group Anagrams](arrays-and-hashing/49-group-anagrams.java)
 - [ ] [347 - Top K Frequent Elements](arrays-and-hashing/)
 - [ ] [238 - Product of Array Except Self](arrays-and-hashing/)
 - [ ] [36 - Valid Sudoku](arrays-and-hashing/)
