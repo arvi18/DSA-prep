@@ -2,7 +2,7 @@
 
 Java solutions organized by NeetCode topic. Copy `_template.java` for each new problem.
 
-**Progress:** 5 / 150
+**Progress:** 6 / 150
 
 ## Arrays & Hashing
 
@@ -13,7 +13,7 @@ Java solutions organized by NeetCode topic. Copy `_template.java` for each new p
 - [x] [347 - Top K Frequent Elements](arrays-and-hashing/347-top-k-frequent-elements.java)
 - [ ] [238 - Product of Array Except Self](arrays-and-hashing/)
 - [ ] [36 - Valid Sudoku](arrays-and-hashing/)
-- [ ] [271 - Encode and Decode Strings](arrays-and-hashing/)
+- [x] [271 - Encode and Decode Strings](arrays-and-hashing/271-encode-and-decode-strings.java)
 - [ ] [128 - Longest Consecutive Sequence](arrays-and-hashing/)
 
 ## Two Pointers
